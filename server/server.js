@@ -1,9 +1,15 @@
 'use strict';
 
-var loopback = require('loopback');
-var boot = require('loopback-boot');
+const loopback = require('loopback');
+const boot = require('loopback-boot');
+const bodyParser = require('body-parser');
 
 var app = module.exports = loopback();
+
+// for parsing application/json
+app.use(bodyParser.json());
+// for parsing application/x-www-form-urlencoded
+app.use(bodyParser.urlencoded({extended: true}));
 
 app.start = function() {
   // start the web server
