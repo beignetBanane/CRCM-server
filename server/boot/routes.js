@@ -5,7 +5,7 @@ module.exports = function(app) {
 
   app.post('/login', function(req, res) {
     CrcmUser.login({
-      email: req.body.email,
+      username: req.body.username,
       password: req.body.password,
     }, 'user', function(err, token) {
       if (err) return res.send(err);
