@@ -1,6 +1,6 @@
 {
-  "name": "CRCM",
-  "version": "1.0.0",
+  "name": "crcm-server",
+  "version": "0.0.1",
   "main": "server/server.js",
   "engines": {
     "node": ">=4"
@@ -12,21 +12,21 @@
     "test": "mocha ./server/test/index.js"
   },
   "dependencies": {
-    "async": "^2.6.1",
-    "body-parser": "^1.18.3",
-    "compression": "^1.0.3",
-    "cors": "^2.5.2",
-    "formidable": "^1.2.1",
-    "helmet": "^3.10.0",
-    "loopback": "^3.22.0",
-    "loopback-boot": "^2.6.5",
-    "loopback-component-explorer": "^6.2.0",
-    "loopback-component-storage": "^3.5.0",
-    "loopback-connector-mongodb": "^3.9.2",
-    "mongodb": "^3.1.10",
-    "semver": "^5.6.0",
-    "serve-favicon": "^2.0.1",
-    "strong-error-handler": "^3.0.0"
+    "async": "2.6.1",
+    "body-parser": "1.18.3",
+    "compression": "1.0.3",
+    "cors": "2.5.2",
+    "formidable": "1.2.1",
+    "helmet": "3.10.0",
+    "loopback": "3.22.0",
+    "loopback-boot": "2.6.5",
+    "loopback-component-explorer": "6.2.0",
+    "loopback-component-storage": "3.5.0",
+    "loopback-connector-mongodb": "3.9.2",
+    "mongodb": "3.1.10",
+    "semver": "5.6.0",
+    "serve-favicon": "2.0.1",
+    "strong-error-handler": "3.0.0"
   },
   "devDependencies": {
     "chai": "^4.2.0",
@@ -37,8 +37,8 @@
   },
   "repository": {
     "type": "",
-    "url": ""
+    "url": "https://github.com/beignetBanane/CRCM-server"
   },
   "license": "UNLICENSED",
-  "description": "CRCM"
+  "description": "CRCM Server"
 }
